@@ -7,9 +7,9 @@
   .cont-covers
   {
     min-width: 320px;
-  height: 504px;
-  overflow: hidden;
-  background-image: url(../img/covers-img/elements_vectors.png)
+    height: 504px;
+    overflow: hidden;
+  background-image: url(../img/covers-img/elements_vectors.png);
   }
 
   .marquee {
@@ -21,20 +21,18 @@
   }
   
   .marquee__inner {
-    height: 200px;
+    height: 400px;
     display: flex;
     transform: rotate(16deg);
   }
   
   .marquee__line {
     flex-shrink: 0;
-    margin-right: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    white-space: nowrap;
-    width: 282px;
-    height: 162px;
+    margin-right: 50px;
+    width: 544px;
+    height: 314px;
+    padding: 20px 0;
+    animation: none;
   }
   
   .marquee_animation {
@@ -63,8 +61,6 @@
     border: 0;
     padding: 0;
     white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
     overflow: hidden;
   }
 
@@ -78,7 +74,7 @@
       .marquee__line {
         margin-right: 20px;
         width: 544px;
-        height: 314px;
+        height: 314px; 
       }
     }
 
